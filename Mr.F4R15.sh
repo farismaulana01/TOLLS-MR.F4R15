@@ -48,7 +48,7 @@ echo "[37] Chatting di termux"
 echo "[38] Install Breacher"
 echo "[39] Install Pagekite alternatif ngrok"
 echo "[40] Install ngrok"
-echo "[41] Install Rusmana id
+echo "[41] Install Spam Call
 
 echo "\033[35;1m Silahkan pilih yang mau anda install"
 
