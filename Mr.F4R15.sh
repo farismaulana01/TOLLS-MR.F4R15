@@ -1,6 +1,6 @@
 clear
 echo "\033[34;1m Selamat Datang di Tool Mr.F4R15"
-sleep 1
+sleep 1 
 echo "\033[35;1m Anda disini dapat menginstall berbagai tools" | lolcat
 sleep 1
 echo "\033[31;1m:)  Semoga Bermanfaat  (:"
@@ -92,6 +92,7 @@ echo "[41] Red Hawk"
 echo "<================================>"
 echo "[42] Install FBH"
 echo "<================================>
+
 echo "\033[35;1m Silahkan pilih yang mau anda install"
 
 read -p "#Mr.F4R15 ~>#" pilihan
