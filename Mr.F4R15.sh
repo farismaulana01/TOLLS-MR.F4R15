@@ -7,47 +7,87 @@ echo "\033[31;1m:)  Semoga Bermanfaat  (:"
 sleep 1
 clear
 
-
-echo "[01] LiteDDos untuk website" 
+<================================>
+echo "[01] LiteDDos untuk website"
+<================================>
 echo "[02] Lazymux" 
+<================================>
 echo "[03] webdav" 
-echo "[04] HackFb" 
+<================================>
+echo "[04] HackFb"
+<================================>
 echo "[05] Litespam untuk spam sms"
+<================================>
 echo "[06] Hammer untuk ddos website" 
+<================================>
 echo "[07] Red_Hawk untuk scan website"
+<================================>
 echo "[08] Install WPScan" 
+<================================>
 echo "[09] install sqlscan" 
+<================================>
 echo "[10] Install sqlmap" 
+<================================>
 echo "[11] Install santet-online buat nyantet orang" 
+<================================>
 echo "[12] Install VbugMaker" 
-echo "[13] Install Kalinet-hunter" 
+<================================>
+echo "[13] Install Kalinet-hunter"
+<================================>
 echo "[14] Install Metasploit"
+<================================>
 echo "[15] Install Script deface Creator" 
+<================================>
 echo "[16] Install XSStrike" 
+<================================>
 echo "[17] Install D-TECT" 
+<================================>
 echo "[18] Install Nmap" 
+<================================>
 echo "[19] Install BlackBox" 
+<================================>
 echo "[20] Install Infoga" 
+<================================>
 echo "[21] Install Wifi-Hacker (harus root)" 
+<================================>
 echo "[22] Install Admin Finder" 
+<================================>
 echo "[23] Install Sudo" 
+<================================>
 echo "[24] Install RouterSploit" 
+<================================>
 echo "[25] Install IPGeolocation" 
-echo "[26] Install The Fat Rat" 
+<================================>
+echo "[26] Install The Fat Rat"
+<================================>
 echo "[27] Install Weeman untuk phising" 
-echo "[28] Install ubuntu" 
+<================================>
+echo "[28] Install ubuntu"
+<================================>
 echo "[29] Install HashBuster" 
+<================================>
 echo "[30] Install Hunner" 
+<================================>
 echo "[31] Install InstaBot" 
+<================================>
 echo "[32] Install Fish" 
+<================================>
 echo "[33] Install ohmyzsh untuk styling termux"
+<================================>
 echo "[34] Bom call Tokopedia"
+<================================>
 echo "[35] Install SpammerGrab"
+<================================>
 echo "[36] Install Youtubedl" 
+<================================>
 echo "[37] Chatting di termux" 
+<================================>
 echo "[38] Install Breacher"
+<================================>
 echo "[39] Install Pagekite alternatif ngrok"
+<================================>
 echo "[40] Install ngrok"
+<================================>
 
 echo "\033[35;1m Silahkan pilih yang mau anda install"
 
