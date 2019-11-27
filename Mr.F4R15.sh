@@ -8,7 +8,7 @@ sleep 1
 clear
 
 
-echo "\033[34;1m[01] LiteDDos untuk website" 
+echo "[01] LiteDDos untuk website" 
 echo "[02] Lazymux" 
 echo "[03] webdav" 
 echo "[04] HackFb" 
