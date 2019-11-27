@@ -14,6 +14,6 @@ $git clone https://github.com/farismaulana01/TOLLS-MR.F4R15
 
 $cd TOLLS-MR.F4R15
 
-$sh Mr.Rv1.1.sh
+$sh MR.F4R15.sh
 
 
