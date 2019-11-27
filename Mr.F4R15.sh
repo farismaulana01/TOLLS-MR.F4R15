@@ -8,7 +8,7 @@ sleep 1
 clear
 
 echo "<================================>"
-echo "[01] LiteDDos untuk website"
+echo "[01] DDos untuk website"
 echo "<================================>"
 echo "[02] Lazymux" 
 echo "<================================>"
@@ -88,7 +88,10 @@ echo "[39] Install Pagekite alternatif ngrok"
 echo "<================================>"
 echo "[40] Spam call"
 echo "<================================>"
-
+echo "[41] Red Hawk"
+echo "<================================>"
+echo "[42] Install FBH"
+echo "<================================>
 echo "\033[35;1m Silahkan pilih yang mau anda install"
 
 read -p "#Mr.F4R15 ~>#" pilihan
@@ -96,13 +99,14 @@ read -p "#Mr.F4R15 ~>#" pilihan
 
 if [ $pilihan = "01" ] || [ $pilihan = "1" ]
 then
-apt update
-apt upgrade
+apt update && apt upgrade
 pkg install git
 pkg install python2
-git clone https://github.com/4L13199/LITEDDOS
-cd LITEDDOS
-python2 liteDDOS.py
+pip2 install mechanize
+pip2 install request
+git clone https://github.com/RaphSoft/lain-lain
+cd lain-lain
+python2 mbledos.py
 fi
 
 if [ $pilihan = "02" ] || [ $pilihan = "2" ]
@@ -120,10 +124,9 @@ then
 apt update && apt upgrade
 pkg install python2 git
 pip2 install mechanize
-git clone https://github.com/pirmansx/mbf
-ls
-cd mbf
-python2 MBF.py
+git clone https://github.com/pashayogi/SETAN
+cd SETAN
+python2 SETAN.py
 fi
 
 if [ $pilihan = "03" ] || [ $pilihan = "3" ]
@@ -147,14 +150,10 @@ fi
 
 if [ $pilihan = "05" ] || [ $pilihan = "05" ]
 then
-apt update
-apt upgrade
-pkg install toilet
-pkg install php
-pkg install git
-git clone https://gihub.com/4L13199/LITESPAM
-cd LITESPAM
-sh LITESPAM.sh
+apt update && apt upgrade
+git clone https://github.com/TERMUXID3/brutal-sms
+cd brutal-sms
+python2 run.py
 fi
 
 if [ $pilihan = "06" ] || [ $pilihan = "6" ]
@@ -538,7 +537,29 @@ then
 apt update && apt upgrade
 pkg install php
 pkg install git
-git clone https://github.com/4L13199/LITESPAM
-cd LITESPAM
-sh LITESPAM.sh
+git clone https://github.com/rezadkim/spammerZ
+cd spammerZ
+python2 spam.py
+fi
+
+if [ $pilihan = "41" ] || [ $pilihan = "41" ]
+then
+apt update && apt upgrade
+pkg install git
+pkg install php
+pkg install curl
+git clone https://github.com/Tuhinshubhra/RED_HAWK
+cd RED_HAWK
+php rhawk.php
+fi
+
+if [ $pilihan = "42" ] || [ $pilihan = "42" ]
+then
+apt update && apt upgrade
+pkg install git
+git clone https://github.com/muhammadfathul/FBH
+cd FBH
+chmod 777 *
+bash setup
+./FBH
 fi
