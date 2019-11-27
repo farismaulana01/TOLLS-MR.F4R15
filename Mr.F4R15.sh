@@ -48,7 +48,6 @@ echo "[37] Chatting di termux"
 echo "[38] Install Breacher"
 echo "[39] Install Pagekite alternatif ngrok"
 echo "[40] Install ngrok"
-echo "[41] Install Spam Call
 
 echo "\033[35;1m Silahkan pilih yang mau anda install"
 
@@ -503,14 +502,4 @@ unzip ngrok-stable-linux-arm.zip
 echo "Kalau ingin lihat lebih lengkap kalian copy link youtube ini https://youtu.be/ec0M1Rpoh6I" | lolcat
 fi
 
-if [ $pilihan = "41" ] || [ $pilihan = "41" ]
-then
-pkg update && pkg upgrade
-pkg install python2
-pkg install php
-pkg install git
-git clone https://github.com/siputra12/prank.git
-cd prank
-php call.php
-fi
 
