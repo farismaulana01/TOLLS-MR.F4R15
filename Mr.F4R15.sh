@@ -7,6 +7,16 @@ echo "\033[32;1m:)  Semoga Bermanfaat  (:"
 sleep 1
 clear
 
+
+echo "<========================={0}===================>" | lolcat
+echo "Username  : MR.F4R15" | lolcat
+echo "Team      : NETWORK•CITY•NESC" | lolcat
+echo "Github    : https://github.com/farismaulana01" | lolcat
+echo "Facebook  : https://www.facebook.com/Faris Maulana" | lolcat
+echo "WhatsApp  : +62895611036046" | lolcat
+echo "<========================={0}===================>" | lolcat
+
+echo "\033[37;1m"
 echo "<================================>"
 echo "[01] DDos untuk website"
 echo "<================================>"
