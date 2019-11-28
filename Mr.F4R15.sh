@@ -1,5 +1,13 @@
 clear
-echo "\033[32;1m
+echo "\033[34;1m Selamat Datang di Tool Mr.F4R15"
+sleep 1 
+echo "\033[35;1m Anda disini dapat menginstall berbagai tools" | lolcat
+sleep 1
+echo "\033[32;1m:)  Semoga Bermanfaat  (:"
+sleep 1
+clear
+
+echo "\033[32;1m"
 echo "<========================={0}===================>" | lolcat
 echo "Username  : MR.F4R15" | lolcat
 echo "Team      : NETWORK•CITY•NESC" | lolcat
