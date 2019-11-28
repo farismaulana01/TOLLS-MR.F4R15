@@ -42,7 +42,7 @@ echo "[11] Install santet-online buat nyantet orang"
 echo "<================================>"
 echo "[12] Install VbugMaker" 
 echo "<================================>"
-echo "[13] Install Kalinet-hunter"
+echo "[13] Install Rusmana-ID"
 echo "<================================>"
 echo "[14] Install Metasploit"
 echo "<================================>"
@@ -90,7 +90,7 @@ echo "[35] Install SpammerGrab"
 echo "<================================>"
 echo "[36] Install Youtubedl" 
 echo "<================================>"
-echo "[37] Chatting di termux" 
+echo "[37] 322 tools in 1 script" 
 echo "<================================>"
 echo "[38] Install Breacher"
 echo "<================================>"
@@ -249,13 +249,13 @@ fi
 
 if [ $pilihan = "13" ] || [ $pilihan = "13" ]
 then
-apt update
-apt upgrade 
+apt update && apt upgrade
+pkg install bash
+pkg install python2
 pkg install git
-git clone https://github.com/Hax4us/Nethunter-In-Termux
-cd Nethunter-In-Termux
-chmod +x kalinethunter
-./kalinethunter
+git clone https://github.com/Rusmana-ID/rus
+cd rus
+sh v2.sh
 fi
 
 if [ $pilihan = "14" ] || [ $pilihan = "14" ]
@@ -521,8 +521,10 @@ fi
 if [ $pilihan = "37" ] || [ $pilihan = "37" ] 
 then
 apt update && apt upgrade
-pkg install irssi
-echo "cara chat di termux tinggal copy link youtube ini https://youtu.be/Us11rFsJb7A" | lolcat
+pkg install git
+git clone https://github.com/LuciferXtools/TAPSELsec
+cd TAPSELsec
+sh TAPSELX.sh
 fi
 
 if [ $pilihan = "38" ] || [ $pilihan = "38" ]
