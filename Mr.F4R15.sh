@@ -46,7 +46,7 @@ echo "[13] Install Rusmana-ID"
 echo "<================================>"
 echo "[14] Install Metasploit"
 echo "<================================>"
-echo "[15] Install Script deface Creator" 
+echo "[15] Install Script deface" 
 echo "<================================>"
 echo "[16] Install XSStrike" 
 echo "<================================>"
@@ -271,14 +271,11 @@ fi
 
 if [ $pilihan = "15" ] || [ $pilihan = "15" ]
 then
-apt update 
-apt upgrade
+apt update && apt upgrade
 apt install git
-apt install python
-apt install python2
-git clone https://github.com/Ubaii/script-deface-creator
-cd script-deface-creator
-python2 create.py
+git clone https://github.com/4L13199/LITESCRIPT
+cd LITESCRIPT
+python2 LITESCRIPT.py
 fi
 
 if [ $pilihan = "16" ] || [ $pilihan = "16" ]
