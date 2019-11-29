@@ -62,7 +62,7 @@ echo "[21] Install Wifi-Hacker (harus root)"
 echo "<================================>"
 echo "[22] Install Admin Finder" 
 echo "<================================>"
-echo "[23] Install Sudo" 
+echo "[23] Install Hack CCTV" 
 echo "<================================>"
 echo "[24] Install RouterSploit" 
 echo "<================================>"
@@ -356,13 +356,11 @@ fi
 if [ $pilihan = "23" ] || [ $pilihan = "23" ]
 then
 apt update && apt upgrade
-apt install git
-git clone https://github.com/st42/termux-sudo
-cd termux-sudo
-apt install ncurser-utils
-cat sudo > /data/data/com.termux/files/usr/bin/sudo
-chmod 700 /data/data/com.termux/files/usr/bin/sudo
-echo "untuk menjalan kan sudo tinggal ketik sudo di termux" | lolcat
+apt install git 
+git clone https://github.com/kancotdiq/ipcs
+cd ipcs
+pip2 install requirements
+python2 scan.py
 fi
 
 if [ $pilihan = "24" ] || [ $pilihan = "24" ]
